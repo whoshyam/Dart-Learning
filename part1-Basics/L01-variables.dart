@@ -103,7 +103,7 @@ void main() {
   //!---------------optional variables 
   //string/int/bool and null //?(null is used when intilially we do not want set a value but later we do set some value so null is used )
   
-  String some = '';
+  //String some = '';
   //int some1 = null; 
   ////?A value of type 'Null' can't be assigned to a variable of type 'int'.
   //? so to assign null value to int or String use int? and String?
@@ -111,6 +111,7 @@ void main() {
   int? some1 = null; //Redundant initialization to 'null'.
   // which means that we do not have to do = null we can do 
   int? some2;
+  print(some1);
   print(some2);
 
   }

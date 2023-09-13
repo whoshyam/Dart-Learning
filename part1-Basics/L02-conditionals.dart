@@ -1,5 +1,5 @@
 void main() {
- //if statements 
+ //!---------if statements 
   int age = 45;
   
   if (age>=18){
@@ -14,16 +14,17 @@ void main() {
     print('child');
   }
   
-  //Ternary operators
+  //!-----------Ternary operators
   String something = 'Hi!';
   String value =  something.startsWith('H')?'WOW': 'naha';
-  // variable value jo ki ek variable h jo something naam ke variable ke basis pe h 
-  // ie agar something variable starts with H th wow print hoga nhi th naha 
+  // variable "value" jo ki ek variable h jo something naam ke variable ke basis pe h 
+  //? ie if "something" variable starts with H then prints "wow" 
+  //? or if something variable does not starts with H then it prints "naha" 
   print(value);
   
-  //switch 
+  //!-------------switch 
   switch(something){
-    case 'Hi': //no need to write break;
+    case 'Hi': //?no need to write break;
         print ('Hello!');
     case 'Hi!!':
         print ('Hello!');
@@ -61,21 +62,18 @@ void main() {
       print('hello');
     default:
       print('Yooo');
-  
   }
   
   int age2 = 20;
   
-//   switch(something){
-//     case 'Hi!' when age <=20:
-//       print('yepp');
-//     case 'Hi!!':
-//     case 'Hi!!!' :
-//       print('hello');
-//     default:
-//       print('Yooo');
+  switch(something){
+    case 'Hi!' when age2 <=20:
+      print('yepp');
+    case 'Hi!!':
+    case 'Hi!!!' :
+      print('hello');
+    default:
+      print('Yooo');
   
-//   }
-   
-    
+  }  
 }
