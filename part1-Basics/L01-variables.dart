@@ -1,5 +1,5 @@
 void main() {
- //variables
+ //----------------------variables
  // datatype var name = value;
   int a=12;
   int b=32;
@@ -18,28 +18,27 @@ void main() {
   print(i.isEven); //will give boolean result 
   
   //variable naming canvention camelCase
-  // yes it can camelcase but for better readibility use camelCase
   
   int value = 20 ;
   print(value);
-  value =100; //reassing value 
+  value =100; //reassigning value 
   //int value =100; //throws error 
   print(value);
-
+//--------------------------------------------
 //string concatation 
 //   String greeting ='hello , world';
 //   print(greeting);
 //   greeting=greeting + ' yooooo';
-//   //Use error interpolation to compose strings and values.
-//   //as plus+ operator gen not be used in strings but should be used is string interpolation 
+//   Use error interpolation to compose strings and values.
+//   as plus+ operator gen not be used in strings but should be used is string interpolation 
   
 //   print(greeting);
   
   //string interpolation working
    String greeting ='hello , world';
-  print(greeting);
-  //greeting= '$greeting yooooo';
-  greeting= '${greeting.length} yooooo'; //${} braces used when we have something like this 
+   print(greeting);
+  greeting= '$greeting yooooo';
+  greeting= '${greeting.length} yooooo'; //! ${} braces used when we have something like this 
   // prints 13 yooooo
   
   //greeting= '$greeting.length yooooo'; //dart thinks dollar greeting is a variable in this way 
@@ -54,7 +53,7 @@ void main() {
     // to print words in separate lines
     String welcome = 'hey buddy'; 
     print(welcome);
-    //welcome ='hey \n buddy'; //the space is counted between \n and buddy
+    //welcome ='hey \n buddy'; //! the space is counted between \n and buddy
     welcome ='hey \nbuddy';
     print(welcome);
     
