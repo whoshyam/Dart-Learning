@@ -65,3 +65,19 @@
  Class Modifiers  
 
 </details>
+
+<details>
+<summary>part 3</summary>
+<br>
+
+ Lists  
+ Sets  
+ Maps  
+ Enums  
+ Enhanced Enums  
+ Exception Handling  
+ Streams  
+ Creating Records  
+ Patterns & Pattern Matching  
+
+</details>
