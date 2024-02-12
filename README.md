@@ -1,4 +1,8 @@
 ## DART
+
+official documentation
+https://dart.dev/language
+
 <details>
 <summary>part 1</summary>
 <br>
@@ -22,7 +26,14 @@
  Do While Loop  
  continue keyword  
  Exercise 2  
- break keyword  
+ break keyword
+
+</details>
+
+<details>
+<summary>part 2</summary>
+<br>
+
  Functions  
  Returning 2 Values from a Function (Records)  
  Patterns  
@@ -37,11 +48,11 @@
 </details>
 
 <details>
-<summary>part 2</summary>
+<summary>part 3</summary>
 <br>
 
- Classes  
- Constructor  
+ Classes    
+ Constructor   
  this keyword  
  Positional Constructor Arguments  
  Immutable Classes  
@@ -67,7 +78,7 @@
 </details>
 
 <details>
-<summary>part 3</summary>
+<summary>part 4</summary>
 <br>
 
  Lists  
