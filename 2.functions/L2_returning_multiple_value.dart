@@ -3,7 +3,7 @@
   var name=printName(); 
   print(name);
   //if wanna get 'hello' only then use getters
-  print(name.$2);
+  print(name.$2);//prints Hello
   
 }
 

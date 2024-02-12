@@ -17,7 +17,7 @@ void printName(){
   print(name);
 }
 //-------------------
-
+// ????
 void main(){
   String name = 'hello';
   printName(name);
@@ -30,8 +30,7 @@ void printName(String name){
 }
 
 //---------------------------------------
-
- void main() {
+void main() {
   String name ='Rivan R.';
   printName(name,12,'Hello'); // we have match accordingly the below thing
 }
@@ -64,5 +63,3 @@ void printName(int age, bool isAdult, {required String name,required String gree
   print(name);
   print(age);
 }
-
-//-----------------------------

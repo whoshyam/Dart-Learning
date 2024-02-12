@@ -1,5 +1,5 @@
 void main(){
-    // datatype var name = value;
+  // datatype var name = value;
   int a=12;
   int b=32;
   print(a*b);
@@ -34,10 +34,11 @@ void main(){
 //   print(greeting);
   
   //string interpolation working
-   String greeting ='hello , world';
-   print(greeting);
+  String greeting ='hello , world';
+  print(greeting);
   greeting= '$greeting yooooo';
-  greeting= '${greeting.length} yooooo'; //! ${} braces used when we have something like this 
+  greeting= '${greeting.length} yooooo'; 
+  // ${} braces used when we have something like this 
   // prints 13 yooooo
   
   //greeting= '$greeting.length yooooo'; //dart thinks dollar greeting is a variable in this way 
@@ -58,15 +59,14 @@ void main(){
     
     // welcome =10; // is not allowed as dart type system is very strong 
     // is a variable is assign string it cannot be assign to integer or boolean or double value 
-  
-  //-----------------
+
   //!---------------optional variables 
-  //string/int/bool and null //?(null is used when intilially we do not want set a value but later we do set some value so null is used )
+  //string/int/bool and null //(null is used when intilially we do not want set a value but later we do set some value so null is used )
   
   //String some = '';
   //int some1 = null; 
-  ////?A value of type 'Null' can't be assigned to a variable of type 'int'.
-  //? so to assign null value to int or String use int? and String?
+  //A value of type 'Null' can't be assigned to a variable of type 'int'.
+  //so to assign null value to int or String use int? and String?
   
   int? some1 = null; //Redundant initialization to 'null'.
   // which means that we do not have to do = null we can do 

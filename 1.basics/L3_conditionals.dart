@@ -17,9 +17,8 @@ void main() {
   //!-----------Ternary operators
   String something = 'Hi!';
   String value =  something.startsWith('H')?'WOW': 'naha';
-  // variable "value" jo ki ek variable h jo something naam ke variable ke basis pe h 
-  //? ie if "something" variable starts with H then prints "wow" 
-  //? or if something variable does not starts with H then it prints "naha" 
+  //variable "value" jo ki ek variable h jo something naam ke variable ke basis pe h 
+  //ie if "something" variable starts with H then "wow" is assigned to variable value otherewise "naha" 
   print(value);
   
   //!-------------switch 
@@ -41,7 +40,8 @@ void main() {
     case 'Hi!!!' :
     default:
       print('Yooo');
-  //op Yooo
+  //op 
+  //Yooo
   }
   
   switch(something){
@@ -51,7 +51,8 @@ void main() {
       print('hello');
     default:
       print('Yooo');
-  //op hello
+  //op 
+  //hello
   }
   
   switch(something){
@@ -74,6 +75,8 @@ void main() {
       print('hello');
     default:
       print('Yooo');
-  
   }  
+
+  //op
+  //yepp
 }
