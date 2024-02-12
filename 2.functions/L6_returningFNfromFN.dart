@@ -1,13 +1,13 @@
-void main(){
+void main() {
   final stuff = printStuff();
   stuff();
-  (){
+  () {
     print('yoo');
   }();
 }
 
-Function printStuff(){
-  return(){
+Function printStuff() {
+  return () {
     print('hey');
   };
 }

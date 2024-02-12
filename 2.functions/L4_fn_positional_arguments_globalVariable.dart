@@ -17,7 +17,6 @@ void printName(){
   print(name);
 }
 //-------------------
-// ????
 void main(){
   String name = 'hello';
   printName(name);
@@ -30,24 +29,24 @@ void printName(String name){
 }
 
 //---------------------------------------
+//positional argumment
 void main() {
   String name ='Rivan R.';
   printName(name,12,'Hello'); // we have match accordingly the below thing
 }
 
-void printName(String name, int age, String greeting){ //positional argumment
+void printName(String name, int age, String greeting){ 
   print(name);
 }
-
 //--------------------------------
-
-//? function named arguments 
+//function named arguments 
  void main() {
   String name ='Rivan R.';
   printName(name: name, age: 12, greeting: 'Hello');  //parameters 
 } 
 
-void printName({required String name,required int age,required String greeting}){ // positional arguments are converted into named arg so we do not have to constantly match it
+void printName({required String name,required int age,required String greeting}){ 
+  // positional arguments are converted into named arg so we do not have to constantly match it
   print(name);
 }
 
