@@ -13,12 +13,13 @@ void main(){
   //rem syntax of creating a variable here type of variable
   //is now Cookie
   cookie.baking();
-  final isCCookieCooling = cookie.isCooling();
-  print(isCCookieCooling);
+  final isCookieCooling = cookie.isCooling();
+  print(isCookieCooling);
 }
 
 class Cookie {
-  String shape = 'circle';double size = 15.2; //cm
+  String shape = 'circle';
+  double size = 15.2; //cm
 
   //method //fn in class is method
   void baking(){
